@@ -1,0 +1,11 @@
+{
+    "name": "twitter/vine",
+    "description": "A PHP client written for the unofficial Vine API",
+    "authors": [
+        {
+            "name": "Andre Figueira",
+            "email": "andre.figueira@me.com"
+        }
+    ],
+    "require": {}
+}
