@@ -15,6 +15,16 @@ Create a new instance of the Client:
 
 Then use the `get` method to call one of the get resources, e.g.
 
+    //Searches, just give the get the resource and it will respond with the results in stdObj format
     $searchResults = $vine->get('timelines/tag/{{searchQuery}}');
+    
+    //Creates a vine session
+    $login = $vine
+                ->setUsername('bananana')
+                ->setPassword('LOL_SONY')
+                ->login();
+                
+    //Deletes the login
+    $logout = $vine->logout();
 
-You can see the documentation here: [https://github.com/starlock/vino/wiki/API-Reference](Vine API Reference)
+You can see the API documentation here: [https://github.com/starlock/vino/wiki/API-Reference](Vine API Reference)
