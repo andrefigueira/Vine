@@ -1,6 +1,6 @@
 {
     "name": "twitter/vine",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A PHP client written for the unofficial Vine API",
     "authors": [
         {
