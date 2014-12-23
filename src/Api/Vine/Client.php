@@ -145,6 +145,24 @@ class Client
     }
 
     /**
+     * Fetches a videos info based on the URL
+     *
+     * @param $url
+     * @return mixed
+     */
+    public function getEmbed($url)
+    {
+
+        $result = $this->curl
+            ->set(CURLOPT_URL, 'https://vine.co/oembed.json?url=' . urlencode($url))
+            ->set(CURLOPT_RETURNTRANSFER, true)
+            ->exec();
+
+        return $this->formatResponse($result);
+
+    }
+
+    /**
      * Array of allowed request types
      *
      * @return array
