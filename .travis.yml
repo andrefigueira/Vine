@@ -11,3 +11,8 @@ before_script:
   - composer install --prefer-source --no-interaction --dev
 
 script: phpunit
+
+before_install:
+  sudo pip install codecov
+after_success:
+  codecov
