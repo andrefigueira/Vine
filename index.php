@@ -11,4 +11,9 @@ $vine = new \Api\Vine\Client();
 
 print '<pre>';
 var_dump($vine->get('timelines/tags/banana'));
+$result = $vine
+    ->setUsername('')
+    ->setPassword('')
+    ->logout();
+var_dump($result);
 print '</pre>';
