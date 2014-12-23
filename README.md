@@ -13,4 +13,4 @@ Then use the `get` method to call one of the get resources, e.g.
 
     $searchResults = $vine->get('timelines/tag/{{searchQuery}}');
 
-You can see the documentation here: [https://github.com/starlock/vino/wiki/API-Reference](Vine API Reference)
+You can see the documentation here: [Vine Api Reference](https://github.com/starlock/vino/wiki/API-Reference)
