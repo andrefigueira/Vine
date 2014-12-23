@@ -3,11 +3,10 @@
 A PHP Vine API client
 
 [![Build Status](https://travis-ci.org/andrefigueira/Vine.svg?branch=master&style=flat)](https://travis-ci.org/andrefigueira/vine)
-[![Latest Stable Version](https://poser.pugx.org/twitter/vine/v/stable.svg?style=flat)](https://packagist.org/packages/twitter/vine) 
+[![Latest Stable Version](https://img.shields.io/packagist/dt/twitter/vine.svg?style=flat)](https://packagist.org/packages/twitter/vine) 
 [![Total Downloads](https://poser.pugx.org/twitter/vine/downloads.svg?style=flat)](https://packagist.org/packages/twitter/vine) 
 [![Latest Unstable Version](https://poser.pugx.org/twitter/vine/v/unstable.svg)](https://packagist.org/packages/twitter/vine) 
-[![License](https://poser.pugx.org/twitter/vine/license.svg?style=flat)](https://packagist.org/packages/twitter/vine)
-[![Code Coverage](https://img.shields.io/codecov/c/github/andrefigueira/vine.svg?style=flat)]
+[![Code Coverage](https://img.shields.io/codecov/c/github/andrefigueira/vine.svg?style=flat)](https://codecov.io/github/andrefigueira/Vine)
 
 ### Usage:
 
